@@ -31,7 +31,7 @@ void loop(){
   }
  
   
-  if(hold<=maxDist && hold>minDist){ //It starts to beep when the car is 60 cm away
+  if(hold<=maxDist && hold>minDist){ //It starts to beep when the car is minDist away
     trip=1;
     
     digitalWrite(ledpin, HIGH);
